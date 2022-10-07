@@ -98,10 +98,36 @@ h2 {color: darkblue;}
 	padding: 4%;
 	position: relative;
 }
+.element-image {
+	height:80px;
+	width:100px;
+	
+}
+.element-image:hover {
+	box-shadow: 0 8px 12px 0 rgb(34, 60, 80, 0.16);
+}
+
+
 hr {
 	border: 0;
 	height: 1px;
 	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 
 }
-#txtbox { font-size: 12pt; height: 42px; width : 300px; }
+#txtbox { font-size: 12pt; height: 42px; width : 300px;  border-radius: 5px}
+
+
+
+
+#comment-box, #post, #cancel{
+    border: 5;
+    border-radius: 5px;
+	
+}
+#post:hover{
+    background-color: rgb(112, 151, 174);
+}
+#cancel:hover{
+	background-color: rgb(112, 151, 174);
+}
+
