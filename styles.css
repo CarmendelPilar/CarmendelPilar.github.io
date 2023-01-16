@@ -58,11 +58,11 @@ h2 {color: darkblue;}
 	border-radius: 50%;
 	width: 15%;
 	Height: 50%;
-	box-shadow:  0 3px 6px 0 rgb(34, 60, 80, 0.16);
+	box-shadow:  0 3px 6px 0 rgba(20, 35, 46, 0.16);
 	transition:  all ease-in-out .2%;
 }
 .profile-image:hover {
-	box-shadow: 0 8px 12px 0 rgb(34, 60, 80, 0.16);
+	box-shadow: 0 8px 12px 0 rgba(21, 37, 49, 0.16);
 }
 
 .project-image {
