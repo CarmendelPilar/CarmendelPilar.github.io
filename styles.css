@@ -2,7 +2,7 @@ body {
 	font-family: 'Noto Sans', sans-serif;
 	background: white;
 }
-h1,h2,h3,h4 {
+h2,h3,h4 {
 	font-family: 'Roboto Mono', monospace;
 }
 .container {
@@ -17,9 +17,13 @@ h1,h2,h3,h4 {
 h2 {color: darkblue;}
 
 
-#title {font-style: italic;} 
+#title {font-style: italic;
+} 
 
-#name {color: blueviolet}
+
+#name {
+	font-family: signature; color: rgb(130, 76, 181);
+}
 
 
 
@@ -58,11 +62,11 @@ h2 {color: darkblue;}
 	border-radius: 50%;
 	width: 15%;
 	Height: 50%;
-	box-shadow:  0 3px 6px 0 rgba(20, 35, 46, 0.16);
-	transition:  all ease-in-out .2%;
+	box-shadow:  0 3px 6px 0 rgba(8, 15, 19, 0.16);
+	transition:  all ease-in-out .5%;
 }
 .profile-image:hover {
-	box-shadow: 0 8px 12px 0 rgba(21, 37, 49, 0.16);
+	box-shadow: 0 8px 12px 1px rgba(10, 17, 23, 0.16);
 }
 
 .project-image {
@@ -75,8 +79,8 @@ h2 {color: darkblue;}
 
 }
 .project-image:hover {	
-	filter: brightness(.85);
-	box-shadow: 0 8px 12px 0 rgb(34, 60, 80, 0.16);
+	filter: brightness(1);
+	box-shadow: 0 8px 12px 0 rgba(36, 42, 26, 0.16);
 }
 .project-image-wrapper:hover > h4 {
 	visibility: visible; 
@@ -87,8 +91,8 @@ h2 {color: darkblue;}
 	top: 70%;
 	left: 50%;
 	transform:  translate(-50%, -50%);
-	color: white; 
-	text-shadow: 3px 3px #1C2129;
+	color: rgb(246, 244, 244); 
+	text-shadow: 3px 3px #11131a;
 	visibility: hidden;
 	z-index: 2;
 	transition:  all ease-in-out .2%;
